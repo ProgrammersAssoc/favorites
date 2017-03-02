@@ -15,7 +15,10 @@ public class Truck extends Car {
   }
   public String getItem(int i){
   return things[i];
-}
+	}
+	public void honk(){
+		//HONK
+	}
 
 
 }
