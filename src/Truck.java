@@ -13,8 +13,9 @@ public class Truck extends Car {
   public int getCargo(){
     return cargo;
   }
-  public String getItem(int i);
+  public String getItem(int i){
   return things[i];
+}
 
 
 }
