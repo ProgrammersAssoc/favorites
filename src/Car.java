@@ -2,13 +2,13 @@
 public class Car {
 
 	private String type;
-	private String brand;
+	private String called;
 	private  String doors;
 
-	public Car(String type, String brand, String doors){
+	public Car(String type, String called, String doors){
 
 		this.type = type;
-		this.brand = brand;
+		this.called = called;
 		this.doors = doors;
 	}
 
@@ -16,15 +16,15 @@ public class Car {
 	public String getType(){
 		return this.type;
 	}
-	public String getBrand(){
-		return this.brand;
+	public String getCalled(){
+		return this.called;
 	}
 	public String	getDoors(){
 		return this.doors;
 	}
 
 	public String	describe(){
-		reutnr "The vehicle you're refering to is a" + this.brand + " " + this.type + " and has " + this.doors " ."
+		reutnr "The vehicle you're refering to is a" + this.called + " " + this.type + " and has " + this.doors " ."
 	}
 
 
