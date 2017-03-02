@@ -1,9 +1,9 @@
 public class Truck extends Car {
-	protected double cargo;
+	protected int cargo;
   protected String[] things;
 
 
-	public Truck(String type, String brand, String doors, double c){
+	public Truck(String type, String brand, String doors, int c){
 		super(type,brand,doors);
     cargo = c;
     things = new String[cargo];
