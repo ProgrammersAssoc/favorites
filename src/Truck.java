@@ -1,9 +1,9 @@
 public class Truck extends Car {
-	protected int cargo;
+	protected double cargo;
   protected String[] things;
 
 
-	public Truck(String type, String brand, String doors, int c){
+	public Truck(String type, String brand, String doors, double c){
 		super(type,brand,doors);
     cargo = c;
     things = new String[cargo];
@@ -15,6 +15,6 @@ public class Truck extends Car {
   }
   public String getItem(int i);
   return things[i];
-  
+
 
 }
